@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <nav class="flex justify-between items-center text-white py-2 md:py-6 lg:py-8 px-8 bg-[#000435] ">
+      <div class="flex items-center">
+        <a href="#" class="text-lg font-bold">Logo</a>
+      </div>
+      <div class="hidden md:flex items-center">
+        <ul class="flex items-center">
+          <li class="mr-6">
+            <a href="#" class="hover:text-gray-900">Beranda</a>
+          </li>
+          <li class="mr-6">
+            <a href="#" class="hover:text-gray-900">Cek Transaksi</a>
+          </li>
+          <li class="mr-6">
+            <a href="#" class="hover:text-gray-900">Hubungi Kami</a>
+          </li>
+        </ul>
+        <div class="flex items-center ml-6">
+          <input type="search" class="bg-white border border-gray-300 rounded py-2 px-4" placeholder="Cari...">
+          <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-2">Cari</button>
+        </div>
+        <div class="flex items-center mx-6">
+          <button class=" flex rounded py-2 px-4 items-center">
+            <span class="mr-2">ID</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 ml-1">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <ul class="hidden absolute top-full right-0 bg-white border border-gray-300 rounded py-2 px-4">
+            <li class="py-2 px-4 hover:bg-gray-100">
+              <a href="#" class="text-gray-600 hover:text-gray-900">EN - English</a>
+            </li>
+          </ul>
+        </div>
+        <div class="">
+          <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Login</button>
+        </div>
+      </div>
+      <button class="md:hidden flex items-center justify-center w-8 h-8 bg-gray-500 hover:bg-gray-700 text-white font-bold rounded">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="4" y="4" width="8" height="8" rx="1" fill="#fff"></rect>
+          <rect x="12" y="4" width="8" height="8" rx="1" fill="#fff"></rect>
+          <rect x="20" y="4" width="8" height="8" rx="1" fill="#fff"></rect>
+        </svg>
+      </button>
+      
+    </nav>
+  </body>
+
+  <!--Javascript-->
+  <script src="navbar.js"></script>
+  </html>
